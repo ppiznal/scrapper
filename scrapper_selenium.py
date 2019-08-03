@@ -9,7 +9,7 @@ capabilities["marionette"] = True
 
 # path to firefox
 binary = FirefoxBinary('/opt/firefox/firefox')
-# path to geckodriver, version geckodriver-v0.24.0-linux64
+# path to geckodriver
 browser = webdriver.Firefox(capabilities=capabilities, firefox_binary=binary, executable_path='./geckodriver')
 browser.get('https://google.com')
 browser.quit()
