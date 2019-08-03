@@ -1,7 +1,5 @@
 # scrapper
-Pyhton web scrapping
-
-
+Pyhton web scrapping on ubuntu
 
 # requirments
 pip install selenium
